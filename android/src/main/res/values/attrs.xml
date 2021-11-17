@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageViewSlide">
+        <attr name="slide_auto_start" format="boolean" />
+        <attr name="slide_flip_interval" format="integer" />
+        <attr name="slide_scale_type">
+            <enum name="matrix" value="0" />
+            <enum name="fitXY" value="1" />
+            <enum name="fitStart" value="2" />
+            <enum name="fitCenter" value="3" />
+            <enum name="fitEnd" value="4" />
+            <enum name="center" value="5" />
+            <enum name="centerCrop" value="6" />
+            <enum name="centerInside" value="7" />
+        </attr>
+        <attr name="slide_visible_navigator" format="boolean" />
+        <attr name="slide_image_preview" format="reference" />
+        <attr name="slide_image_next" format="reference" />
+        <attr name="slide_border_preview" format="reference|color" />
+        <attr name="slide_border_next" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="MyDateTime">
+        <attr name="date_initialise" format="boolean" />
+        <attr name="date_type" format="enum">
+            <enum name="date" value="0" />
+            <enum name="time" value="1" />
+        </attr>
+        <attr name="date_enabled_text" format="boolean" />
+        <attr name="date_enabled_button" format="boolean" />
+        <attr name="date_text" format="string" />
+        <attr name="date_hint" format="string" />
+        <attr name="date_border" format="reference|color" />
+        <attr name="date_background" format="color" />
+        <attr name="date_image" format="reference" />
+        <attr name="date_gravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="fill_vertical" value="0x70" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="fill_horizontal" value="0x07" />
+            <flag name="center" value="0x11" />
+            <flag name="fill" value="0x77" />
+            <flag name="clip_vertical" value="0x80" />
+            <flag name="clip_horizontal" value="0x08" />
+            <flag name="start" value="0x00800003" />
+            <flag name="end" value="0x00800005" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MyEditTextView">
+        <attr name="edit_text_type" format="enum">
+            <enum name="text" value="0" />
+            <enum name="edit" value="1" />
+        </attr>
+        <attr name="edit_text_value" format="string" />
+        <attr name="edit_text_height" format="dimension" />
+        <attr name="edit_text_size" format="dimension" />
+        <attr name="edit_text_hint" format="string" />
+        <attr name="edit_text_color" format="color" />
+        <attr name="edit_text_border" format="reference|color" />
+        <attr name="edit_text_image_done" format="reference" />
+        <attr name="edit_text_image_edit" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MySpinner">
+        <attr name="spinner_border" format="reference|color" />
+        <attr name="spinner_mode" format="enum">
+            <enum name="dropdown" value="0" />
+            <enum name="dialog" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MyPanel">
+        <attr name="panel_title" format="string" />
+        <attr name="panel_text_right" format="string" />
+        <attr name="panel_header_background" format="reference|color" />
+        <attr name="panel_content_background" format="reference|color" />
+        <attr name="panel_text_right_alway_visible" format="boolean" />
+        <attr name="panel_checked" format="boolean" />
+        <attr name="panel_closable" format="boolean" />
+        <attr name="panel_checked_visible" format="boolean" />
+        <attr name="panel_image" format="reference" />
+        <attr name="panel_text_right_color" format="color" />
+        <attr name="panel_item_color" format="color" />
+        <attr name="panel_header_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyGroupPanel">
+        <attr name="group_panel_header_title" format="string" />
+        <attr name="group_panel_header_image" format="reference" />
+        <attr name="group_panel_title" format="string" />
+        <attr name="group_panel_title_color" format="reference|color" />
+        <attr name="group_panel_position_active" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MyRecyclerView">
+        <attr name="recycler_view_margin_left" format="dimension" />
+        <attr name="recycler_view_margin_right" format="dimension" />
+        <attr name="recycler_view_margin_top" format="dimension" />
+        <attr name="recycler_view_margin_bottom" format="dimension" />
+        <attr name="recycler_view_height" format="dimension" />
+        <attr name="recycler_view_width" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyItem">
+        <attr name="item_image" format="reference" />
+        <attr name="item_indicator" format="reference" />
+        <attr name="item_titre" format="string" />
+        <attr name="item_sous_titre" format="string" />
+        <attr name="item_nombre" format="string" />
+        <attr name="item_color_text" format="color" />
+        <attr name="item_nombre_position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

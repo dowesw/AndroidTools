@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bottom_text_bottom">-15dp</dimen>
+    <dimen name="margin_bottom_text_top">-15dp</dimen>
+    <dimen name="padding_left">5dp</dimen>
+    <dimen name="padding_right">5dp</dimen>
+    <dimen name="size_text_component_badge">16dp</dimen>
+</resources>
